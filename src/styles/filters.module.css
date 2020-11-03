@@ -1,0 +1,31 @@
+.component {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  width: 20%;
+  min-height: 90vh;
+  margin: 25px;
+  background-color: #fff;
+}
+@media only screen and (max-width: 750px) {
+  .component {
+    width: 100%;
+  }
+}
+.section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.filterItem {
+  background-color: greenyellow;
+  margin: 20px;
+  padding: 2px;
+}
+.selectedFilterItem {
+  background-color: darkgreen;
+}
+.header {
+  font-weight: bold;
+  text-align: left;
+  margin: 15px;
+}
