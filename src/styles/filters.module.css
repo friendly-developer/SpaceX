@@ -6,6 +6,7 @@
   min-height: 90vh;
   margin: 25px;
   background-color: #fff;
+  height: 100%;
 }
 @media only screen and (max-width: 750px) {
   .component {
@@ -34,5 +35,5 @@
 .clearFilter {
   color: red;
   cursor: pointer;
-  margin: 0 auto;
+  margin: 10px auto;
 }
