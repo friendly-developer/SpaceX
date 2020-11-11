@@ -79,7 +79,12 @@ class Filters extends Component {
           selected={landing}
         />
         {(year || launch || landing) && (
-          <div onClick={(e) => this.onClearFilters(e)}>Clear Filters</div>
+          <div
+            className={styles.clearFilter}
+            onClick={(e) => this.onClearFilters(e)}
+          >
+            Clear Filters
+          </div>
         )}
       </div>
     );

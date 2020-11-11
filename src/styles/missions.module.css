@@ -1,15 +1,25 @@
 .component {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 40px;
-  width: 70%;
+  grid-template-columns: 250px 250px 250px 250px;
+  gap: 15px;
+  width: 73%;
   margin: 25px auto;
+}
+@media only screen and (max-width: 750px) {
+  .component {
+    grid-template-columns: 250px;
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 750px) {
+  .component {
+    grid-template-columns: 250px 250px;
+  }
 }
 .missionSection {
   display: flex;
   flex-direction: column;
   background-color: white;
-  width: 275px;
+  width: 250px;
 }
 .missionImg {
   height: 250px;
